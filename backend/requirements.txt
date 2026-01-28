@@ -1,0 +1,23 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+
+pydantic==2.6.1
+python-multipart==0.0.9
+
+sqlalchemy==2.0.25
+asyncpg==0.29.0
+aiosqlite==0.22.1
+
+python-dotenv==1.0.1
+
+# AI / ML (placeholders – swap with real models later)
+# torch==2.10.0
+# transformers==4.36.2
+
+# Audio / Image processing
+# librosa==0.10.1
+# soundfile==0.12.1
+# pillow==10.2.0
+
+# Utilities
+httpx==0.26.0
