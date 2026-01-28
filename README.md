@@ -1,11 +1,11 @@
-LinguaNE
+#LinguaNE
 
 LinguaNE is a full-stack, AI-powered platform designed to translate, preserve, and promote the daily use of tribal and indigenous languages.
 The platform supports real-time translation across text, speech, and scanned documents while prioritizing ethical AI usage and community participation.
 
 LinguaNE was developed as a hackathon prototype and is architected to scale into a real-world deployment.
 
-Table of Contents
+#Table of Contents
 
 Overview
 
@@ -31,13 +31,13 @@ Current Status
 
 Future Scope
 
-Overview
+#Overview
 
 Many tribal and indigenous languages lack digital tools that support everyday communication. Existing translation platforms often exclude low-resource languages or ignore cultural and ethical considerations.
 
 LinguaNE bridges this gap by combining modern AI models with native-speaker validation and consent-first design, enabling inclusive and responsible language technology.
 
-Problem Statement
+#Problem Statement
 
 Tribal languages are underrepresented in digital platforms
 
@@ -47,7 +47,7 @@ No clear consent or ethical data handling
 
 Limited support for speech and document-based translation
 
-Solution
+#Solution
 
 LinguaNE provides a unified platform that:
 
@@ -61,8 +61,8 @@ Enforces explicit user consent
 
 Maintains a scalable and modular architecture
 
-Features
-Translation
+#Features
+#Translation
 
 Text-to-text translation
 
@@ -70,11 +70,9 @@ Speech-to-speech translation (ASR → Translation → TTS)
 
 Scanner / OCR translation
 
-Camera capture
+Camera capture, Document upload
 
-Document upload
-
-Community & Feedback
+#Community & Feedback
 
 Native speaker validation
 
@@ -98,7 +96,7 @@ Transparent data usage
 
 Community-driven improvement
 
-Architecture
+#Architecture
 
 LinguaNE follows a modular architecture with clear separation of concerns:
 
@@ -112,8 +110,8 @@ Database Layer: Persistent storage (extensible)
 
 This design allows independent scaling and future model upgrades.
 
-Tech Stack
-Frontend
+#Tech Stack
+#Frontend
 
 React
 
@@ -121,7 +119,7 @@ React Router
 
 Tailwind CSS
 
-Backend
+#Backend
 
 FastAPI
 
@@ -137,13 +135,13 @@ Modular AI service layer
 
 Designed for ASR and TTS integration
 
-Database
+#Database
 
 SQLite (development / hackathon)
 
 PostgreSQL (production-ready)
 
-Project Structure
+#Project Structure
 linguane/
 ├── frontend/
 │   ├── pages/
